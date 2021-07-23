@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: gray;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* Layout */
+
+.list {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 650px;
+}
+
+.list li {
+    border-bottom: 1px dashed red;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.list li .image {
+    float: left;
+    width: 100px;
+}
+
+.list li .image img {
+    border-radius: 6px;
+}
+
+.list li .detail {
+    float: right;
+    padding-top: 3px;
+    width: 520px;
+}
+
+.info-list li .detail h3 {
+    color: black;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
