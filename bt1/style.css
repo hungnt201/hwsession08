@@ -1,0 +1,44 @@
+.headback {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    padding: 64px 0 91px;
+    color: #bababa;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.list {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+    top: -40px;
+    width: 1150px;
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 220px;
+    padding: 65px 30px 30px;
+    width: 303px;
+}
+
+.list li:last-child {
+    margin-right: 0;
+}
+
+.list li .icon {
+    margin-bottom: 16px;
+}
+
+.list li .icon i {
+    color: #c2d82e;
+    font-size: 40px;
+}
+
+.list li h3 {
+    color: #000;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
