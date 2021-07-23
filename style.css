@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    max-width: 2000px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    width: 57%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner img {
+    border-radius: 1%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.avatar img {
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    display: block;
+    transform: translatey(-80%);
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+.name {
+    transform: translatey(-520%);
+    text-align: center;
+}
